@@ -1,1 +1,1 @@
-web: gunicorn redhen:redhen
+web: gunicorn -b :$PORT redhen:redhen
