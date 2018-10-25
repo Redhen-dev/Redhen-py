@@ -1,2 +1,4 @@
 Flask==1.0
 gunicorn
+flask-wtf
+flask-sqlalchemy
