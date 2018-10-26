@@ -1,3 +1,3 @@
 from redhen import app
-if __name__ == '__main__':
+def redhen():
     app.run(debug=True)
