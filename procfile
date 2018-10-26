@@ -1,2 +1,1 @@
-web: gunicorn -b :$PORT redhen:redhen
-heroku ps:scale web=1
+web: gunicorn run:run
