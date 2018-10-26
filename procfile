@@ -1,1 +1,1 @@
-web: gunicorn run:redhen
+web: gunicorn run:app
