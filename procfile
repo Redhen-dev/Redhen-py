@@ -1,2 +1,1 @@
-web: gunicorn redhen:redhen
-heroku ps:scale web=1
+web: gunicorn redhen:app --log-file -
